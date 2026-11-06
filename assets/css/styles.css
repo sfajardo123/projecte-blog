@@ -1,0 +1,26 @@
+:root {
+--figma-bg:#828282;
+--figma-text-main:#000000;
+--figma-text-muted: #555555;
+--figma--border: #eaeaea;
+--figma-accent: #000000;
+--figma-font: 'Plus Jakarta Sans','Inter' sans-serif;
+}
+body {
+    font-family: var(--figma-font);
+    background-color: var(--figma-bg);
+    color: var(--figma-text-main);
+    letter-spacing: 0,2px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+}
+.figma-navbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid var(--figma--border);
+    padding: 1.25rem 0;
+}
+
