@@ -31,4 +31,13 @@ img{
 .img img{
     width: 50%;
 }
+.news-header {
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+}
+.justify-content-end
+{
+    justify-content: end;
+}
 
