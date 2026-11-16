@@ -19,13 +19,13 @@ main{
     flex: 1;
 }
 .figma-navbar {
-    background-color: #ffffff !important;
+    background-color:#828282 !important;
     border-bottom: 1px solid var(--figma--border);
     padding: 1.25rem 0;
 }
 img{
     display: flex;
-    justify-content: center;
+    justify-content:space-between
     margin: auto;
 }
 .img img{
@@ -36,8 +36,10 @@ img{
     justify-content:space-between;
     margin: auto;
 }
-.justify-content-end
-{
-    justify-content: end;
-}
+.border-bottom {
 
+}
+.border-top{
+    border-top:#000000;
+    color:#000000;
+}
