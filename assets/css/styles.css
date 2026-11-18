@@ -4,16 +4,19 @@
 --figma-text-muted: #555555;
 --figma--border: #a1a0a0;
 --figma-accent: #000000;
---figma-font: 'Plus Jakarta Sans','Inter' sans-serif;
+--figma-font: 'Plus Jakarta Sans','Inter', sans-serif;
 }
 body {
     font-family: var(--figma-font);
     background-color: var(--figma-bg);
     color: var(--figma-text-main);
-    letter-spacing: 0,2px;
+    letter-spacing: 0.2px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+.bg-grey{
+    background-color:#f2f2f2;
 }
 main{
     flex: 1;
@@ -36,10 +39,25 @@ img{
     justify-content:space-between;
     margin: auto;
 }
-.border-bottom {
 
-}
 .border-top{
-    border-top:#000000;
-    color:#000000;
+    border-top:1px solid #000000 !important;
+    color:#000000 !important;
+}
+.noticia-mini {
+    width:25%;
+}
+.noticia-mini img {
+    width:100px;
+    height:100px;
+    margin-right: 10px;
+}
+.noticia-mini h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(47, 46, 46);
+}
+.noticia-mini p {
+    font-size: 15px;
+    margin: 0;
 }

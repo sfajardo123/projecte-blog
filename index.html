@@ -9,15 +9,15 @@
     <link rel = "stylesheet" href="assets/css/styles.css">
 </head>
 <body> 
-    <div class="mx-auto bg-grey border border-secondary" style="width: 60%;">
+    <div class="mx-auto bg-light border border-secondary" style="width: 80%;">
         <header>
-            <div class="card header mx-auto py-3">
+            <div class="card header mx-auto py-3 bg-light">
                 <!--Zona superior fecha,logo,etc -->
-                <div class="d-flex justify-content-between align-items-center border-top border-bottom">
+                <div class="d-flex justify-content-between align-items-center border-top border-bottom border-dark">
                     <!--IZQUIERDA-->
                     <div class="d-flex align-items-center">
                         <img src="/assets/img/SVG.png" alt="LOGO">
-                        <span class="navbar-brand mb-0 h1">Lunes, 9 de Noviembre, 2026</span>
+                        <span class="navbar-brand mb-0 h1"> Tuesday, October 29,2024</span>
                     </div>
                     <!-- DERECHA-->
                     <div class="d-flex align-items-center" >
@@ -32,42 +32,102 @@
                                 <li><a class="dropdown-item" href="news.html">Noticias</a></li>
                                 <li><a class="dropdown-item" href="new.html">Ultima hora</a></li>
                                 <li><a class="dropdown-item" href="contact.html">Contacto</a></li>
-
                             </ul>
                         </div>
                     </div>
                 </div> 
+                
                         <!-- Titulo -->
                 <div class="text-center">
                     <h1 class="display-4 fw-bold m-0">The NEWS*</h1>
                 </div>
                 <!-- Enlaces del Menu; INDEX,NEW,NEWS... -->
-                <nav class="border-top border-bottom">
+                <nav class="border-top border-bottom border-dark">
                     <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html"> Home </a>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="index.html"> World News </a>
                             </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="news.html">Noticias</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="news.html">Politics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="new.html">Ultima Hora</a>
+                        <a class="nav-link" href="new.html">Business</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contacto</a>
+                        <a class="nav-link" href="contact.html">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Health</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Culture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Podcast</a>
                     </li>
                     </ul>
                 </nav>
             </div>
         </header>    
-        <main>
-            <div class="card mx-auto">
-                <div class="card-body text-center">
-                    <img src="assets/img/Frame 104.png" alt="home" class="img-fluid">    
+        <main class="p-3">
+            <div class="d-flex justify-content-between mb-4"> 
+                <!-- TARJETA 1  WORLD NEWS -->
+                <div class="d-flex align-items-start noticia-mini">
+                    <img src="/assets/img/Frame 23.png" alt="WORLD NEWS">
+                    <div> 
+                        <h6> WORLD NEWS</h6>
+                        <p>Economic policies are shaping international markets </p>
+                    </div>
+                </div>
+                <!-- TARJETA 2 TECHNOLOGY-->
+                <div class="d-flex align-items-start noticia-mini">
+                    <img src="/assets/img/ 23.png" alt="TECHNOLOGY">
+                    <div>
+                        <h6> TECHNOLOGY</h6>
+                        <p> The latest trends in AI and innovation </p>
+                    </div>
+                </div>
+                <!-- TARJETA 3 HEALTH-->
+                <div class="d-flex align-items-start noticia-mini">
+                    <img src="/assets/img/66daa00a9ca7528191cd8a14_news-thumb-05.jpg.png" alt="Health">
+                    <div>
+                        <h6> HEALTH</h6>
+                        <p>  Analyzing the effects of global health policies</p>
+                    </div>
+                </div>
+                <!-- TARJETA 4 SPORTS-->
+                <div class="d-flex align-items-start noticia-mini">
+                    <img src="/assets/img/auraç.png" alt="SPORTS">
+                    <div>
+                        <h6> SPORTS</h6>
+                        <p> Affect the integrity and future of professional sports</p>
+                    </div>
+                </div>
+            </div>
+            <!-- TARJETA GRANDE LIVE UPDATES -->
+            <div class="noticia-grande">
+                <img src="/assets/img/crisotabal.png" class="rounded" alt="LIVE UPDATES">
+                <!-- LADO IZQUIERDO-->
+                <div class="justify-content-between align-items-start">
+                    <div class="card-izq">
+                        <button type="button" class="btn btn-outline-secondary btn-sm"> CULTURE</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" > GUY HAWKINS</button>
+                        <h2 class="titulo-live"> A deep dive into the influence of cultural movements on contemporary society</h2>
+                    </div>
+                </div>
+                <!-- LADO DERECHO-->
+                <div class="text-end card-der"> 
+                    <p> Sep 9,2024 <img src="/assets/img/Horizontal Divider.png" alt="barra"> 06 Minute </p>
+                    <p> read article </p>
+                    <img src="/assets/img/Frame 34.png" alt="flecha"> 
+
                 </div>
             </div>
         </main>
-    </div> 
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
