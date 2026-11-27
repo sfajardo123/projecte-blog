@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The news - El teu Blog de noticies </title>
+    <title>The NEWS* </title>
+    <meta name="description" content="The news - El meu blog de notiices">
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,15 +14,15 @@
     <link rel = "stylesheet" href="assets/css/styles.css">
 </head>
 <body> 
-    <div class="container-noticias">
+    <div class="container my-4 container-noticias">
         <header>
-            <div class="card header mx-auto pt-2 pb-3 bg-light">
+            <div class="header pb-2">
                 <!--Zona superior fecha,logo,etc -->
-                <div class="d-flex justify-content-between align-items-center border-top border-bottom border-dark">
+                <div class="d-flex justify-content-between align-items-center py-2 border-top border-bottom border-dark">
                     <!--IZQUIERDA-->
                     <div class="d-flex align-items-center gap-2">
-                        <img src="/assets/img/SVG.png" alt="LOGO">
-                        <span class="navbar-brand mb-0"> Tuesday, October 29,2024</span>
+                        <img src="assets/img/SVG.png" class="iconos-pequeños" alt="mundo">
+                        <span class="fecha"> Tuesday, October 29,2024</span>
                     </div>
                     <!-- DERECHA-->
                     <div class="d-flex align-items-center gap-2" >
@@ -29,7 +30,7 @@
                         <!--DROPDOWN -->
                         <div class="dropdown">
                             <button type="button" class="busqueda" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                                <img src="/assets/img/Container.png" alt="cerca">
+                                <img src="assets/img/Container.png" alt="cerca">
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 <li><a class="dropdown-item" href="index.html">Menu</a></li>
@@ -47,72 +48,52 @@
                 <!-- Enlaces del Menu; INDEX,NEW,NEWS... -->
                 <nav class="border-top border-bottom border-dark py-1">
                     <ul class="nav justify-content-center">
-                    <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="index.html"> World News </a>
-                            </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="news.html">Politics</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="new.html">Business</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Technology</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Health</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Sports</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Culture</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Podcast</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="new.html">Article</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>    
         <main class="pt-3">
-            <div class="d-flex justify-content-between mb-4"> 
+            <div class="d-flex flex-wrap justify-content-between mb-4"> 
                 <!-- TARJETA 1  WORLD NEWS -->
                 <div class="d-flex align-items-start noticia-mini">
-                    <img src="/assets/img/Frame 23.png" class="rounded" alt="WORLD NEWS">
+                    <img src="assets/img/Frame 23.png" class="rounded" alt="WORLD NEWS">
                     <div> 
-                        <h6> WORLD NEWS</h6>
+                        <span> WORLD NEWS</span>
                         <p>Economic policies are shaping international markets </p>
                     </div>
                 </div>
                 <!-- TARJETA 2 TECHNOLOGY-->
                 <div class="d-flex align-items-start noticia-mini">
-                    <img src="/assets/img/ 23.png" class="rounded" alt="TECHNOLOGY">
+                    <img src="assets/img/ 23.png" class="rounded" alt="TECHNOLOGY">
                     <div>
-                        <h6> TECHNOLOGY</h6>
+                        <span> TECHNOLOGY</span>
                         <p> The latest trends in AI and innovation </p>
                     </div>
                 </div>
                 <!-- TARJETA 3 HEALTH-->
                 <div class="d-flex align-items-start noticia-mini">
-                    <img src="/assets/img/66daa00a9ca7528191cd8a14_news-thumb-05.jpg.png" class="rounded" alt="Health">
+                    <img src="assets/img/66daa00a9ca7528191cd8a14_news-thumb-05.jpg.png" class="rounded" alt="Health">
                     <div>
-                        <h6> HEALTH</h6>
+                        <span> HEALTH</span>
                         <p>  Analyzing the effects of global health policies</p>
                     </div>
                 </div>
                 <!-- TARJETA 4 SPORTS-->
                 <div class="d-flex align-items-start noticia-mini">
-                    <img src="/assets/img/auraç.png" class="rounded" alt="SPORTS">
+                    <img src="assets/img/auraç.png" class="rounded" alt="SPORTS">
                     <div>
-                        <h6> SPORTS</h6>
+                        <span> SPORTS</span>
                         <p> Affect the integrity and future of professional sports</p>
                     </div>
                 </div>
             </div>
             <!-- TARJETA GRANDE LIVE UPDATES -->
             <div class="noticia-grande">
-                <img src="/assets/img/crisotabal.png" class="rounded" alt="LIVE UPDATES">
+                <img src="assets/img/crisotabal.png" class="img-fluid rounded" alt="LIVE UPDATES">
                 <div class="d-flex justify-content-between align-items-start mt-3">
                     <!-- LADO IZQUIERDO-->
                     <div class="justify-content-between align-items-start">
@@ -124,61 +105,67 @@
                     </div>
                     <!-- LADO DERECHO-->
                     <div class="text-end card-der"> 
-                        <p class="mb-2"> Sep 9,2024 <img src="/assets/img/Horizontal Divider.png" alt="barra"> 06 Minute </p>
-                        <p class="read-more"> Read Article <img src="/assets/img/Frame 34.png" alt="flecha"> </p>
+                        <p class="mb-2"> Sep 9,2024 <img src="assets/img/Horizontal Divider.png" alt="barra"> 06 Minute </p>
+                        <p class="read-more"> Read Article <img src="assets/img/Frame 34.png" alt="flecha"> </p>
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <h1 class="m-0"> LATEST NEWS</h1>
-                <p class="read-more m-0"> View all <img src="/assets/img/Frame 34.png" alt="flecha"> </p>
+            <!-- LATEST NEWS -->
+            <div class="d-flex justify-content-between align-items-center pb-3 mb-4 latest-header">
+                <h2 class="latest-titulo m-0"> LATEST NEWS</h2> 
+                <a href="#" class="read-more m-0 text-decoration-none text-dark d-flex align-items-center gap-2">View All
+                    <img src="assets/img/Frame 34.png" alt="flecha">
+                </a>
             </div>
             <!-- LATAEST NEWS IZQUIERDA-->
-            <div class="d-flex jutify-content-between align-items-start ">
+            <div class="latest-grid-superior">
                 <div class="card-izquierda">
-                    <img src="/assets/img/List → Listitem → Link.png" class="rounded" alt="Latest news">
+                    <img src="assets/img/List → Listitem → Link.png" class="rounded" alt="Latest news">
+                </div>
+                <!-- LATEST NEWS DERECHA-->
+                <div class="card-derecha">
+                    <div class="latest-derecha"> 
+                        <div class="latest-texto"> 
+                            <p>The effects of geopolitical shifts on global security</p>
+                            <span> Sports - Sep 9,2024</span>
+                        </div>
+                        <img src="assets/img/Background.png" class="rounded" alt="World News">
+                    </div>
+                    <div class="latest-derecha"> 
+                        <div class="latest-texto"> 
+                            <p>Affect the integrity and future of professional sports</p>
+                            <span> Sports - Sep 9,2024</span>
+                        </div>
+                        <img src="assets/img/auraç.png" class="rounded" alt="World News">
+                    </div>
                 </div>
             </div>
-            <!-- LATEST NEWS DERECHA-->
-            <div class="d-flex justify-content-betweem align-items-start">
-                <div class="text-end card-derecha"> 
-                <img src="/assets/img/Background.png" class="rounded" alt="World News">
-                    <div> 
-                        <p>The effects of geopolitical shifts on global security</p>
-                        <h6> Sports - Sep 9,2024</h6>
-                    </div>
-                <img src="/assets/img/auraç.png" class="rounded" alt="Sports">
-                    <div> 
-                        <p>Affect the integrity and future of professional sports</p>
-                        <h6> Sports - Sep 9,2024</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-between mb-4"> 
-                <!-- TARJETA 1  abajo laterst izq-->
-                <div class="d-flex align-items-start noticia-media">
-                    <img src="/assets/img/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg.png" class="rounded" alt="WORLD NEWS">
+            <!-- TARJETA 1  abajo laterst izq-->
+            <div class="latest-grid-inferior mt-4 mb-4">
+                <div class="noticia-media">
+                    <img src="assets/img/66da9f082769115a30bf4133_news-thumb-03-p-800.jpg.png" class="rounded" alt="WORLD NEWS">
                     <div> 
                         <p>Strategies for succes in a competitive landscape</p>
-                        <h6> Business - Sep 9,2024 </h6>
+                        <span> Business - Sep 9,2024 </span>
                     </div>
                 </div>
                 <!-- TARJETA 2 abajo de latest medio -->
-                <div class="d-flex align-items-start noticia-media">
-                    <img src="/assets/img/moto.png" class="rounded" alt="TECHNOLOGY">
+                <div class="noticia-media">
+                    <img src="assets/img/moto.png" class="rounded" alt="TECHNOLOGY">
                     <div>
                         <p> The latest trends in AI and innovation </p>
-                            <h6> Business - Sep 9,2024</h6>
+                            <span> Business - Sep 9,2024</span>
                     </div>
                 </div>
                 <!-- TARJETA 3 abajo latest derecha-->
-                <div class="d-flex align-items-start noticia-media">
-                    <img src="/assets/img/medi.png" class="rounded" alt="Health">
+                <div class="noticia-media">
+                    <img src="assets/img/medi.png" class="rounded" alt="Health">
                     <div>
-                        <p>  Analyzing the effects of global health policies</p>
-                        <h6> HEALTH</h6>
+                        <p> Analyzing the effects of global health policies</p>
+                        <span> HEALTH - Sep 9, 2024</span>
                     </div>
                 </div>
+             </div>
         </main>
         <footer class="footer mt-5">
             <div class="footer-top py-3">
@@ -186,15 +173,15 @@
             </div>
             <div class="footer-bottom d-flex justify-content-between align-items-center py-3">
                 <div class="d-flex align-items-center gap-3">
-                    <img src="/assets/img/Link → SVG.png" alt="icono">
+                    <img src="assets/img/Link → SVG.png" alt="icono">
                     <span>Copyright © 2024 - The News - All rights reserved</span>
                 </div>
                 <div class="d-flex align-items-center gap-3">
-                    <a href="#"><img src="/assets/img/ig.png" alt="instagram"></a>
-                    <a href="#"><img src="/assets/img/SVG(1).png" alt="Linkedin"></a>
-                    <a href="#"><img src="/assets/img/Link.png" alt="youtube"></a>
-                    <a href="#"><img src="/assets/img/Link(1).png" alt="twitter"></a>
-                    <a href="#"><img src="/assets/img/Link(2).png" alt="reddit"></a>
+                    <a href="#"><img src="assets/img/ig.png" alt="instagram"></a>
+                    <a href="#"><img src="assets/img/SVG(1).png" alt="Linkedin"></a>
+                    <a href="#"><img src="assets/img/Link.png" alt="youtube"></a>
+                    <a href="#"><img src="assets/img/Link(1).png" alt="twitter"></a>
+                    <a href="#"><img src="assets/img/Link(2).png" alt="reddit"></a>
                 </div>
             </div>
         
